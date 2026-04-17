@@ -1,0 +1,124 @@
+html {
+  min-height: 100%;
+  background-image: url("F:\\digital-business-card-web-projects-20260417\\images\\background-1.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  margin: auto;
+  text-align: center;
+  color: rgb(92, 119, 154);
+  padding: 10px;
+  animation: fadeScaleIn 0.8s ease-out both;
+}
+
+@keyframes fadeScaleIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+header,
+ul {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 16px;
+  padding: 20px 30px;
+  margin: 16px auto;
+  max-width: 700px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+  animation: fadeScaleIn 0.8s 0.3s ease-out both;
+}
+
+main {
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 16px;
+  padding: 20px 30px;
+  margin: 16px auto;
+  max-width: 700px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+  animation: fadeScaleIn 0.8s 0.3s ease-out both;
+}
+
+section {
+ background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 16px;
+  padding: 20px 30px;
+  margin: 16px auto;
+  max-width: 700px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeScaleIn 0.8s 0.3s ease-out both;
+  cursor: default;
+}
+
+header {
+  margin: auto;
+  text-align: center;
+  color: rgb(92, 119, 154);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Noto Serif TC", serif;
+  font-weight: 900;
+  color: rgb(42, 92, 158);
+}
+
+p {
+  font-family: "Noto Serif TC", serif;
+  font-weight: 100;
+  color: rgb(92, 119, 154);
+}
+
+h2 {
+  font-family: "Noto Serif TC", serif;
+  font-weight: 500;
+  color: rgb(158, 0, 0);
+  animation-name: oxxo;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes oxxo {
+  0% {
+    color: rgb(158, 0, 0);
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+  }
+  50% {
+    color: rgb(85, 0, 0);
+    text-shadow: 0 0 20px rgb(85, 0, 0);
+  }
+  100% {
+    color: rgb(158, 0, 0);
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+  }
+  
+}
